@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How It All Began
+title: How It All Began, Also, Disclaimer
 ---
 
 h1. {{ page.title }}
@@ -8,5 +8,11 @@ h1. {{ page.title }}
 p(meta). 20 May 2011 - Paris
 
 Background is probably meaningless at this point. I started programming applications for Android tablets about a month ago and met quite a few hurdles on my way. This blog is supposed to be a compendium of some of the most excruciating bugs I met (whines) and some of the most horribly wrong hacks I used to overcome them (cheeses). You bet, I'm French.
+
+I somehow missed the whole "mobile app" craze and only joined the bandwagon recently. I intend to focus my efforts on the Honeycomb platform (API levels 11 and up), so most of my issues & solutions will be Honeycomb-specific - previous API levels are well documented enough, anyway.
+
+As a disclaimer, to me a "cheese" is my own little notion of dumb hack that did the trick for me. It's not meant as an end-all-be-all solution to all problems, only a few lines of code that freed me from the anguish of banging my head for more hours than necessary. Of course, my contributions will be outdated after a while, so always check the date of the post!
+
+I'd love to thank all who submitted their own bugs to <a href='http://www.stackoverflow.com'>StackOverflow</a> and all who actually cared enough to try to answer them. You've helped tons. I'm so sorry I can't keep a thorough history of each of my investigations.
 
 I hope the reader will find some use from some of the articles in here.
