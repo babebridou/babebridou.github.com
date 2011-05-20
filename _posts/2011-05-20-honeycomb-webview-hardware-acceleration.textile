@@ -8,13 +8,16 @@ h1. {{ page.title }}
 p(meta). 20 May 2011 - Paris
 
 h2. Q: How the hell can I activate hardware acceleration on my Honeycomb app project?
-A: <script src="https://gist.github.com/983107.js?file=AndroidManifest.xml"></script>
+
+p. A: <script src="https://gist.github.com/983107.js?file=AndroidManifest.xml"></script>
 
 h2. Q: I have two hardware accelerated webviews displayed. One is bad enough already, but with two on the screen there are so many artifacts and so much flickering that my eyes bleed. Why god why?
-A: I don't know exactly why. My gut feeling says it's some sort of threadey-wimey stuff under the webview hood, for lack of a better explanation. Deactivating hardware acceleration on all but the most complex webviews did the trick for me.
+
+p. A: I don't know exactly why. My gut feeling says it's some sort of threadey-wimey stuff under the webview hood, for lack of a better explanation. Deactivating hardware acceleration on all but the most complex webviews did the trick for me.
 
 h2. Q: How the hell can I deactivate hardware acceleration on one of my views?
-A: here's how I did it:
+
+p. A: here's how I did it:
 <script src="https://gist.github.com/983155.js?file=HelloActivity.java"></script>
 and of course don't forget to add the internet access permission
 <script src="https://gist.github.com/983155.js?file=AndroidManifest.xml"></script>
