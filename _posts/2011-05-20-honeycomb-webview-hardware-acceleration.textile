@@ -13,7 +13,7 @@ p. A: <script src="https://gist.github.com/983107.js?file=AndroidManifest.xml"><
 
 h2. Q: I have two hardware accelerated webviews displayed. One is bad enough already, but with two on the screen there are so many artifacts and so much flickering that my eyes bleed. Why god why?
 
-p. A: I don't know exactly why. My gut feeling says it's some sort of threadey-wimey stuff under the webview hood, for lack of a better explanation. Deactivating hardware acceleration on all but the most complex webviews did the trick for me.
+p. A: I don't know exactly why. My gut feeling says it's some sort of threadey-wimey stuff under the webview hood, for lack of a better explanation. Deactivating hardware acceleration on all but the most complex webview did the trick for me.
 
 h2. Q: How the hell can I deactivate hardware acceleration on one of my views?
 

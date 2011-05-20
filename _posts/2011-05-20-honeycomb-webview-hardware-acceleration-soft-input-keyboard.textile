@@ -1,0 +1,13 @@
+---
+layout: post
+title: Honeycomb, WebViews, Hardware Acceleration, Soft Input Keyboard?
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 May 2011 - Paris
+
+h2. Q: When I click on a textfield inside of a webview that is near the bottom of my screen, the soft input keyboard comes up alright, but the screen does not resize, and the webview can't scroll down anymore. By the way, this only happens when hardware acceleration is on. I tried to drill a hole inside my tablet to see beneath the keyboard but to no avail. Google doesn't want to help me either. 
+
+p. A: Worst. Gotcha. Ever. It happens because your full screen application window is specified as full screen. There seems to be some optimization stuff going on with the hardware rendering engine for fullscreen applications, probably in order to optimize framerates in pure OpenGL games. To fix it, tell android that your application doesn't need to be full screen. I got the clue from <a href='http://stackoverflow.com/questions/5608806/listview-isnt-resizing-when-keyboard-is-shown'>this stackoverflow thread</a>. 
+In the end, I simply changed the theme of my application from android:theme="@android:style/Theme.Holo.NoActionBarFullScreen" to android:theme="@android:style/Theme.Holo.NoActionBar" in my AndroidManifest.xml file.
