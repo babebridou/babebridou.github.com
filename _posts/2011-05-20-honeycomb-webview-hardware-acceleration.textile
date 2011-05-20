@@ -1,0 +1,12 @@
+---
+layout: post
+title: Honeycomb, WebViews, Hardware Acceleration?
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 May 2011 - Paris
+
+Q: How the hell can I activate hardware acceleration on my Honeycomb app project?
+A: 
+<script src="https://gist.github.com/983107.js?file=AndroidManifest.xml"></script>

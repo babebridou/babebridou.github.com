@@ -7,4 +7,6 @@ h1. {{ page.title }}
 
 p(meta). 20 May 2011 - Paris
 
-bla bla bla
+Background is probably meaningless at this point. I started programming applications for Android tablets about a month ago and met quite a few hurdles on my way. This blog is supposed to be a compendium of some of the most excruciating bugs I met (whines) and some of the most horribly wrong hacks I used to overcome them (cheeses). You bet, I'm French.
+
+I hope the reader will find some use from some of the articles in here.

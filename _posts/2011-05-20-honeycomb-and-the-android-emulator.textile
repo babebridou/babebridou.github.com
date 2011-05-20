@@ -1,0 +1,19 @@
+---
+layout: post
+title: Honeycomb and the Android Emulator?
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 May 2011 - Paris
+
+If you're targetting API level 11 and don't have a real Honeycomb tablet right in front of you, sorry, you're out of luck. Pretty much no one on the internet has managed to make the SDK Emulator fast enough for development purpose. You will definitely have to cough up the cash for one of those devices. I use a Motorola Xoom w/ wifi. It's been pretty bad for a while, with the browser application crashing for no reason, but last week I was lucky enough to be pushed the 3.1 Honeycomb update (API level 12), and to be honest it changes everything. It's definitely a solid device now.
+
+Q: Is it normal that the Android Honeycomb SDK Emulator is so freaking slow on my [top end specs workstation]
+A: Yes. I mean no, it's not "normal". It's a bug. There is no Honeycomb emulator, so there shouldn't even be an option to start it up. Unless you're a google dev working specifically on making it work and getting paid for it, of course, in that case I wish you good luck, know that if you succeed, your work will be greatly appreciated.
+
+Q: What do I need as a programmer to target API level 11+ devices?
+A: Buy a Honeycomb tablet and plug it to your computer.
+
+Q: Is it worth it?
+A: So far, yeah, looks like it. I also have an iPad (v1), to this day I still use the iPad for online browsing and stuff like that, but it's only a matter of time before I switch to my Xoom entirely.
